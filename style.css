@@ -1,41 +1,71 @@
-.Marco_Principal{
-	/*border: 5px solid red;*/
+.Marco_Principal {
+    /*border: 5px solid red;*/
 }
 
-.barra_navegacion{
-	background-color: gray;
-	color: white !important;
-}
-
-.barra_navegacion li{
-	margin-left: 20px;
+.barra_navegacion {
+    background-color: #4f4f4f;
+    box-shadow: 1px -1px 15px 0px #000000;
 
 }
 
-.Marco_Contenido{
-	border: 6px solid red;
-	margin: auto;
-	width: 90%;
+.barra_navegacion a {
+    margin-left: 20px;
+    
 }
 
-.Frase_Principal{
-	background-color:rgb(0, 0, 0,0.3) ;
-	width: 50%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-	color: white;
+.Marco_Contenido {
+    border: 1px solid #4f4f4f;
+    height: 100%;
+
+
+box-shadow: 1px -1px 15px 0px #000000;
+    margin: auto;
+    width: 80%;
 }
 
-.Slider img{
-	width: 53%;
+.Frase_Principal {
+ 
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    color: #4f4f4f;
+     height: 430px !important;
 }
 
-.Paginas_Portafolio{
+
+
+.Slider img {
+	position: relative;
+	top: 50px;
+    width: 53%;
+    height: 380px;
+   
+}
+
+
+
+.Paginas_Portafolio a {
+ 	position: relative;
+ 	top: 50px;
+    width: 50%;
+}
+
+.Paginas_Portafolio img {
 	border: 5px solid red;
+    width: 400px !important;
+    height: 300px !important;
+    border-radius: 10px;
 }
 
-.Paginas_Portafolio section{
-	border: 5px solid black;
+a {
+    text-decoration: none;
+    outline: none;
+    color: black;
+}
+
+strong , h1 {
+    font-size: 2vw;
+    color: #4f4f4f;
 }
