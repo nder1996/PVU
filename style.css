@@ -3,59 +3,37 @@
 }
 
 .barra_navegacion {
-    background-color: #4f4f4f;
+    background-color: black;
     box-shadow: 1px -1px 15px 0px #000000;
 
 }
 
-.barra_navegacion a {
-    margin-left: 20px;
-    
-}
 
 .Marco_Contenido {
-    border: 1px solid #4f4f4f;
-    height: 100%;
-
-
-box-shadow: 1px -1px 15px 0px #000000;
+    /*border: 1px solid #4f4f4f;*/
+    height: 500px;
+    /*box-shadow: 1px -1px 15px 0px #000000;*/
     margin: auto;
     width: 80%;
 }
 
-.Frase_Principal {
- 
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    color: #4f4f4f;
-     height: 430px !important;
-}
-
-
-
-.Slider img {
-	position: relative;
-	top: 50px;
-    width: 53%;
-    height: 380px;
-   
-}
-
-
-
 .Paginas_Portafolio a {
- 	position: relative;
- 	top: 50px;
+    position: relative;
+    padding: 15px;
+    margin-left:25px ;
+    box-shadow: 1px -1px 15px 0px #000000;
+    top: 50px;
     width: 50%;
 }
+
+.Pagina_Portafolio a:hover{
+	background-color: red!important;
+}
+
 
 .Paginas_Portafolio img {
-	border: 5px solid red;
-    width: 400px !important;
-    height: 300px !important;
+    width: 280px !important;
+    height:200px !important;
     border-radius: 10px;
 }
 
@@ -65,7 +43,20 @@ a {
     color: black;
 }
 
-strong , h1 {
+a:hover{
+	color: black;
+	
+}
+img:hover{
+	transform: scale(1.2);
+}
+
+strong,
+h1 {
     font-size: 2vw;
     color: #4f4f4f;
+}
+
+h3{
+	margin-bottom: 10px;
 }
